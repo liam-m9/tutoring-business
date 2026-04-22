@@ -356,3 +356,38 @@ blockquote cite {
   text-transform: uppercase;
   color: var(--soft);
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+  .site-header .wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  .price {
+    font-size: 3rem;
+  }
+
+  .contact-form .row {
+    grid-template-columns: 1fr;
+  }
+}
