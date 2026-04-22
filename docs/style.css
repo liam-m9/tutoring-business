@@ -5,6 +5,8 @@
   --soft: #78716c;
   --border: #e7e5e4;
   --input-bg: #ffffff;
+  --accent: #1e3a5f;
+  --accent-hover: #152a45;
 }
 
 * {
@@ -129,15 +131,15 @@ a {
   display: inline-block;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text);
+  color: var(--accent);
   padding-bottom: 2px;
-  border-bottom: 1px solid var(--text);
+  border-bottom: 1px solid var(--accent);
   transition: color 0.15s, border-color 0.15s;
 }
 
 .cta:hover {
-  color: var(--muted);
-  border-bottom-color: var(--muted);
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
 }
 
 .cta-ghost {
@@ -318,17 +320,17 @@ blockquote cite {
   font-weight: 500;
   align-self: flex-start;
   padding: 0.85rem 1.75rem;
-  background: var(--text);
+  background: var(--accent);
   color: #ffffff;
-  border: 1px solid var(--text);
+  border: 1px solid var(--accent);
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
 }
 
 .submit:hover {
-  background: var(--muted);
-  border-color: var(--muted);
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
 }
 
 #thankYouMessage p {
