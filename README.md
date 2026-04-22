@@ -1,4 +1,4 @@
-# GCSE Math Tutoring - Simplified
+# GCSE Math Tutoring
 
 Marketing site for a GCSE maths tutor I built it as a client project. 
 
